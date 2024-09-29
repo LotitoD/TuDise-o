@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tienda web</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">TuDiseño</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Acerca de</a></li>
+        <li><a href="#product">Productos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="header.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Te ayudaremos a crear un diseño interior moderno</h1>
+          <p>
+            Nosotros te ayudaremos a crear un elegante y lujoso diseño moderno por
+            un diseñador profesional.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container deals__container">
+      <div class="deals__card">
+        <h2 class="section__header">Ofertas 🔥 especiales para ti</h2>
+        <p>Compras en linea minorista para ventas al consumidor</p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-cash-line"></i></span>
+        <h4>1.5% reembolso</h4>
+        <p>¡Gane una recompensa de reembolso del 5 % por cada compra de muebles que realice!</p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-calendar-schedule-line"></i></span>
+        <h4>30 días de pago</h4>
+        <p>
+          Aprovecha nuestros plazos de pago a 30 días, ¡completamente sin intereses!
+        </p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-money-rupee-circle-line"></i></span>
+        <h4>Ahorra dinero</h4>
+        <p>
+          Descubra precios inmejorables y ahorre mucho dinero en la mejor calidad
+          ¡muebles!
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <div>
+          <h2 class="section__header">Acerca de</h2>
+          <p class="section__description">
+            Nuestra pasión por la artesanía excepcional nos impulsa a seleccionar el
+            Las mejores piezas para cada habitación de tu casa.
+          </p>
+        </div>
+        <button class="about__btn">Ver más</button>
+      </div>
+      <div class="about__content">
+        <div class="about__image">
+          <img src="about.png" alt="about" />
+        </div>
+        <div class="about__grid">
+          <div class="about__card">
+            <h3>1.</h3>
+            <h4>¿Quienes somos?</h4>
+            <p>
+              Obtendrás una prueba gratuita de 2 semanas para realizar los intentos de Smaert. te queremos
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>2.</h3>
+            <h4>¿Qué hacemos?</h4>
+            <p>
+              Te brindamos un curso gratuito que te guía en el proceso.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>3.</h3>
+            <h4>¿Cómo podemos ayudarte?</h4>
+            <p>
+              Utilice nuestras conferencias multimedia, vídeos y sesiones de coaching.</p>
+          </div>
+          <div class="about__card">
+            <h3>4.</h3>
+            <h4>Crear historia de éxito</h4>
+            <p>
+              Con acceso a recursos de aprendizaje en línea, cualquiera puede transformarse.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container product__container" id="product">
+      <h2 class="section__header">Productos</h2>
+      <div class="product__grid">
+        <div class="product__card">
+          <h4>Silla apilable</h4>
+          <p>$87.00</p>
+          <img src="product-1.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Herramienta de lampara</h4>
+          <p>$35.00</p>
+          <img src="product-2.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Silla de comedor</h4>
+          <p>$55.00</p>
+          <img src="product-3.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Lámpara de base de mano</h4>
+          <p>$35.00</p>
+          <img src="product-4.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Silla elegante</h4>
+          <p>$45.00</p>
+          <img src="product-5.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Silla vintage</h4>
+          <p>$65.00</p>
+          <img src="product-6.png" alt="product" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container">
+      <div class="client__content">
+        <h2 class="section__header">
+          Lo que dicen nuestros clientes</h2>
+        <p class="section__description">
+          Testimonios que destacan nuestro compromiso con la calidad, excepcional
+          Servicio y satisfacción del cliente
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="user-1.jpg" alt="user" />
+                <div>
+                  <p>
+                    Tudiseño transformó mi espacio vital con sus hermosos
+                    y muebles asequibles. El reembolso del 5% fue una delicia.
+                  </p>
+                  <h4>David Miller</h4>
+                  <h5>Real Estate Agent</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="user-2.jpg" alt="user" />
+                <div>
+                  <p>
+                    ¡Calidad y servicio excepcionales! Los muebles son impresionantes,
+                    y las condiciones de pago de 30 días lo hicieron increíblemente conveniente.
+                  </p>
+                  <h4>Sarah Thompson</h4>
+                  <h5>Interior Designer</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="user-3.jpg" alt="user" />
+                <div>
+                  <p>
+                    Los plazos de 30 días nos facilitaron amueblar nuestro nuevo hogar.
+                    sin estrés financiero. ¡Muy recomendado!
+                  </p>
+                  <h4>Michael Lee</h4>
+                  <h5>Entrepreneur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Tudiseño</a>
+          </div>
+          <p>
+            Únete a nosotros para transformar sus espacios habitables con muebles que
+            combina elegancia y practicidad a la perfección.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/daniellotito/"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Servicios</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contactanos</a></li>
+            <li><a href="#">Método de pago</a></li>
+            <li><a href="#">Libreria</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Centro de ayuda</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Recursos</h4>
+          <ul class="footer__links">
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Soporte</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Terminos y condiciones</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Soporte</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Afiliados</a></li>
+            <li><a href="#">Mapa del sitio</a></li>
+            <li><a href="#">Cancelación de póliza</a></li>
+            <li><a href="#">Seguridad</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 LotitoD. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
